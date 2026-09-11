@@ -6,7 +6,7 @@ Fine-grained vehicle classification across 196 categories, comparing a CNN train
 
 | Model | Approach | Accuracy |
 |---|---|---:|
-|  CNN | Trained from scratch | **2.75%** |
+|  CNN | 	No pretrained weights | **2.75%** |
 | ResNet50 | Transfer learning | **81.34%** |
 
 Reported accuracy comes from a held-out split of the labeled training data (the official test set has no labels — it's meant for submission-based evaluation). Evaluation transforms are fully deterministic for reproducibility.
